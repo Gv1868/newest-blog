@@ -1,0 +1,166 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif; /* Gothic-inspired serif font */
+    color: #e0e0e0;
+}
+
+/* Body and Background */
+body {
+    background-color: #1c1c1c; /* Dark charcoal background */
+    color: #e0e0e0; /* Light grey for text */
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #8b0000; /* Dark red for links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #b22222; /* Slightly lighter red on hover */
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'UnifrakturMaguntia', cursive; /* Gothic blackletter font */
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    border-bottom: 2px solid #8b0000; /* Red underlining */
+}
+
+h2 {
+    font-size: 2.5em;
+    border-bottom: 1px solid #8b0000;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4, h5, h6 {
+    font-size: 1.5em;
+}
+
+/* Paragraphs */
+p {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Containers */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(30, 30, 30, 0.8); /* Semi-transparent dark background */
+    border: 1px solid #8b0000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #8b0000;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #8b0000;
+}
+
+footer a {
+    color: #e0e0e0;
+}
+
+footer a:hover {
+    color: #b22222;
+}
+
+/* Buttons */
+button {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Cinzel', serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b22222;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Gothic Divider */
+hr {
+    border: none;
+    height: 1px;
+    background: #8b0000;
+    margin: 20px 0;
+}
+
+/* Gothic Box Shadow */
+.gothic-box-shadow {
+    box-shadow: 0 0 15px rgba(139, 0, 0, 0.7);
+    padding: 15px;
+    background: rgba(30, 30, 30, 0.9);
+}
+
+/* Form Elements */
+input, textarea {
+    background-color: #333;
+    border: 1px solid #8b0000;
+    color: #e0e0e0;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #b22222;
+}
+
+/* Gothic Section Titles */
+.section-title {
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
